@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Yocale.eShop.WebAPI", "Yocale.eShop.WebAPI\Yocale.eShop.WebAPI.csproj", "{414BD288-F2B2-4689-9427-8221310EBF8A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Yocale.eShop.ApplicationCore", "Yocale.eShop.ApplicationCore\Yocale.eShop.ApplicationCore.csproj", "{385BCF22-439F-43ED-89A2-997B2D8FF043}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Yocale.eShop.Infrastructure", "Yocale.eShop.Infrastructure\Yocale.eShop.Infrastructure.csproj", "{48B6F74D-CF27-498C-AEAA-53641AE521CD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Yocale.eShop.UnitTests", "Yocale.eShop.UnitTests\Yocale.eShop.UnitTests.csproj", "{0018B02F-5B36-4407-92E8-CEB4C99880D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yocale.eShop.Utility", "Yocale.eShop.Utility\Yocale.eShop.Utility.csproj", "{4DF1BD9B-5DC3-4A3C-B138-E2C1EA23C5A5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{414BD288-F2B2-4689-9427-8221310EBF8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{414BD288-F2B2-4689-9427-8221310EBF8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{414BD288-F2B2-4689-9427-8221310EBF8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{414BD288-F2B2-4689-9427-8221310EBF8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{385BCF22-439F-43ED-89A2-997B2D8FF043}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{385BCF22-439F-43ED-89A2-997B2D8FF043}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{385BCF22-439F-43ED-89A2-997B2D8FF043}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{385BCF22-439F-43ED-89A2-997B2D8FF043}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48B6F74D-CF27-498C-AEAA-53641AE521CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48B6F74D-CF27-498C-AEAA-53641AE521CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48B6F74D-CF27-498C-AEAA-53641AE521CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48B6F74D-CF27-498C-AEAA-53641AE521CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0018B02F-5B36-4407-92E8-CEB4C99880D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0018B02F-5B36-4407-92E8-CEB4C99880D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0018B02F-5B36-4407-92E8-CEB4C99880D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0018B02F-5B36-4407-92E8-CEB4C99880D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DF1BD9B-5DC3-4A3C-B138-E2C1EA23C5A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DF1BD9B-5DC3-4A3C-B138-E2C1EA23C5A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DF1BD9B-5DC3-4A3C-B138-E2C1EA23C5A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DF1BD9B-5DC3-4A3C-B138-E2C1EA23C5A5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BB52FE93-6174-4014-81FF-F20517C74763}
+	EndGlobalSection
+EndGlobal
