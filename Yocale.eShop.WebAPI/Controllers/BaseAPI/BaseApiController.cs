@@ -34,11 +34,11 @@ namespace Yocale.eShop.WebAPI.Controllers.BaseAPI
                 if (model.Error.Code == (int)HttpStatusCode.BadRequest)
                     return BadRequest(model.Error.Message);
                 if (model.Error.Code == (int)HttpStatusCode.Forbidden)
-                    return BadRequest(model.Error.Message);
+                    return Forbid(model.Error.Message);
                 if (model.Error.Code == (int)HttpStatusCode.Unauthorized)
-                    return BadRequest(model.Error.Message);
+                    return Unauthorized(model.Error.Message);
                 else if (model.Error.Code == (int)HttpStatusCode.NotFound)
-                    return BadRequest(model.Error.Message);
+                    return NotFound(model.Error.Message);
                 else
                     return StatusCode((int)HttpStatusCode.InternalServerError, model.Error.Message);
             }
