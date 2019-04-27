@@ -1,13 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Net;
-using System.Net.Http;
-using System.Threading;
-using System.Threading.Tasks;
-using Yocale.eShop.Resource.Errors;
 using Yocale.eShop.Utility.Data;
 
 namespace Yocale.eShop.WebAPI.Controllers.BaseAPI
@@ -23,9 +16,9 @@ namespace Yocale.eShop.WebAPI.Controllers.BaseAPI
         {
             if (model == null)
             {
-                _logger.LogInformation($"User error: {model.Error.Message}, status code: {model.Error.Code}");
+                _logger.LogInformation($"An error accured");
 
-                return StatusCode((int)HttpStatusCode.InternalServerError, model.Error.Message);
+                return StatusCode((int)HttpStatusCode.InternalServerError, "An ereor accured");
             }
             else if (model.Error != null)
             {

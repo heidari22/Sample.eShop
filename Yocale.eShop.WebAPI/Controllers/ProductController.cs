@@ -3,7 +3,6 @@ using Microsoft.Extensions.Logging;
 using Swashbuckle.AspNetCore.Annotations;
 using System.Net;
 using System.Threading.Tasks;
-using Yocale.eShop.Utility.Data;
 using Yocale.eShop.WebAPI.Controllers.BaseAPI;
 using Yocale.eShop.WebAPI.Interfaces;
 using Yocale.eShop.WebAPI.ViewModels;

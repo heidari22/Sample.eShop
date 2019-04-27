@@ -14,7 +14,7 @@ namespace Yocale.eShop.Infrastructure.Data
         {
             await _dbContext.AddAsync(product);
 
-            product.Sku = await GenerateSKUAsync(product.Id, product.CategoryId, product.SupplierId);// $"yp-{product.CategoryId}-{product.SupplierId}-{product.Id}";
+            product.Sku = await GenerateSKUAsync(product.Id, product.CategoryId, product.SupplierId);
 
             await _dbContext.SaveChangesAsync();
            

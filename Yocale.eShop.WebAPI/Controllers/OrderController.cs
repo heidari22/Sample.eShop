@@ -41,7 +41,7 @@ namespace Yocale.eShop.WebAPI.Controllers
 
         [HttpPost("~/api/v1/addToBasket/{productId}")]
         [SwaggerOperation("AddToBasketAsync")]
-        [SwaggerResponse(statusCode: (int)HttpStatusCode.OK, description: "This API add a product by Id to basket, finally it returns OrderId", type: typeof(int))]
+        [SwaggerResponse(statusCode: (int)HttpStatusCode.OK, description: "This API adds a product by Id to basket, finally it returns BasketId", type: typeof(int))]
         public async Task<IActionResult> AddToBasket(int productId)
         {
             try
@@ -62,7 +62,7 @@ namespace Yocale.eShop.WebAPI.Controllers
 
         [HttpPost("add/{basketId}")]
         [SwaggerOperation("AddOrderAsync")]
-        [SwaggerResponse(statusCode: (int)HttpStatusCode.OK, description: "This API create an order according the products which choosing in basket, finally it returns OrderId", type: typeof(int))]
+        [SwaggerResponse(statusCode: (int)HttpStatusCode.OK, description: "This API creates an order according the products which choosing in basket, finally it returns OrderId", type: typeof(int))]
         public async Task<IActionResult> AddOrder(int basketId, [FromBody]AddressViewModel addressViewModel)
         {
             if (ModelState.IsValid)

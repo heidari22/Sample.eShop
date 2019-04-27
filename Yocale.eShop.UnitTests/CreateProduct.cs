@@ -1,7 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using Moq;
-using System.Linq;
 using System.Threading.Tasks;
 using Xunit;
 using Yocale.eShop.ApplicationCore.Entities;
